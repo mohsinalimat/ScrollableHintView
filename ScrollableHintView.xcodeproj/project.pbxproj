@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		848280F22053E13D007C3CE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848280F12053E13D007C3CE9 /* AppDelegate.swift */; };
-		848280F42053E13D007C3CE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848280F32053E13D007C3CE9 /* ViewController.swift */; };
 		848280F72053E13D007C3CE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848280F52053E13D007C3CE9 /* Main.storyboard */; };
 		848280F92053E13D007C3CE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848280F82053E13D007C3CE9 /* Assets.xcassets */; };
 		848280FC2053E13D007C3CE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848280FA2053E13D007C3CE9 /* LaunchScreen.storyboard */; };
 		848281072053E13D007C3CE9 /* ScrollableHintViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848281062053E13D007C3CE9 /* ScrollableHintViewTests.swift */; };
 		848281122053E13D007C3CE9 /* ScrollableHintViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848281112053E13D007C3CE9 /* ScrollableHintViewUITests.swift */; };
+		848281222053E19F007C3CE9 /* ScrollableHintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848281202053E19E007C3CE9 /* ScrollableHintView.swift */; };
+		848281232053E19F007C3CE9 /* GoUV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848281212053E19F007C3CE9 /* GoUV.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		848280EE2053E13D007C3CE9 /* ScrollableHintView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollableHintView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848280F12053E13D007C3CE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		848280F32053E13D007C3CE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		848280F62053E13D007C3CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		848280F82053E13D007C3CE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848280FB2053E13D007C3CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		8482810D2053E13D007C3CE9 /* ScrollableHintViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollableHintViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		848281112053E13D007C3CE9 /* ScrollableHintViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableHintViewUITests.swift; sourceTree = "<group>"; };
 		848281132053E13D007C3CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848281202053E19E007C3CE9 /* ScrollableHintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableHintView.swift; sourceTree = "<group>"; };
+		848281212053E19F007C3CE9 /* GoUV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoUV.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				848280F12053E13D007C3CE9 /* AppDelegate.swift */,
-				848280F32053E13D007C3CE9 /* ViewController.swift */,
 				848280F52053E13D007C3CE9 /* Main.storyboard */,
 				848280F82053E13D007C3CE9 /* Assets.xcassets */,
 				848280FA2053E13D007C3CE9 /* LaunchScreen.storyboard */,
 				848280FD2053E13D007C3CE9 /* Info.plist */,
+				848281212053E19F007C3CE9 /* GoUV.swift */,
+				848281202053E19E007C3CE9 /* ScrollableHintView.swift */,
 			);
 			path = ScrollableHintView;
 			sourceTree = "<group>";
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848280F42053E13D007C3CE9 /* ViewController.swift in Sources */,
 				848280F22053E13D007C3CE9 /* AppDelegate.swift in Sources */,
+				848281232053E19F007C3CE9 /* GoUV.swift in Sources */,
+				848281222053E19F007C3CE9 /* ScrollableHintView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -427,7 +431,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ScrollableHintView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ScrollableHintView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +447,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ScrollableHintView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ScrollableHintView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
