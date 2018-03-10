@@ -1,5 +1,6 @@
 # ScrollableHintView
-Long press on UIView to show hint with scrolling.
+Easy to use.
+Long press on UIView to show hint with scrolling. Double tapp on hint view to remove.
 
 <img src="https://github.com/DhruvinThumar/ScrollableHintView/blob/master/ScrollableHintView.gif" width="300" height="600"/>
 
