@@ -2,7 +2,7 @@
 Easy to use.
 Long press on UIView to show hint with scrolling. Double tapp on hint view to remove.
 
-<img src="https://github.com/DhruvinThumar/ScrollableHintView/blob/master/ScrollableHintView.gif" width="300" height="600"/>
+<img src="https://github.com/DhruvinThumar/ScrollableHintView/blob/master/ScrollHint.gif" width="300" height="600"/>
 
 # Requires Xcode 8 and Swift 3.
 Just add 'ScrollableHintView.swift' file to your Xcode project.
