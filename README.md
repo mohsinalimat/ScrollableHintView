@@ -11,7 +11,9 @@ Simply add 'ScrollableHintView.swift' file to your Xcode project.
 Initialize 'ScrollableHintView' in viewDidAppear.
 
 let stepperView = ScrollableHintView.init(viewForLabelToShow: steperView, withWidth: 150, setDownToView:false)
+
 stepperView.hintText = "This is a Hint View, easy to use."
+
 self.view.addSubview(stepperView)
 
 
