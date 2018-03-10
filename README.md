@@ -1,7 +1,7 @@
 # ScrollableHintView
 Long press on UIView to show hint with scrolling.
 
-<img src="https://github.com/DhruvinThumar/ScrollableHintView/blob/master/ScrollableHintView.gif" width="300" height="500"/>
+<img src="https://github.com/DhruvinThumar/ScrollableHintView/blob/master/ScrollableHintView.gif" width="300" height="650"/>
 
 # Requires Xcode 8 and Swift 3.
 Simply add 'ScrollableHintView.swift' file to your Xcode project.
